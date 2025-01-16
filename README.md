@@ -10,7 +10,7 @@ Welcome to the course repository of CSCI 4900/6900 Introduction to Cryptography!
 | 3       | - Pseudorandom generators (PRGs) <br> - Limitation of stream cipher (built from PRGs) <br> - Parallel composition of PRGs | - Boneh&Shoup 3.1-3.4 |
 | 4       | - Sequential composition of PRGs (the Blum-Micali construction) <br> - The subset sum generator <br> - The Salsa and Chacha PRGs | - Boneh&Shoup 3.4, 3.6, 3.7.2 |
 | 5       | - Linear congruential generator <br> - The Content Scrambling System (CSS) <br> - Pseudorandom Number Generator (PRNG) <br> - Generating random bits in practice | - Boneh&Shoup 3.7.1, 3.8, 3.10 <br> -  [Massimiliano Taverna and Kenneth G. Paterson. Snapping Snap Sync: Practical Attacks on Go Ethereum Synchronising Nodes](https://www.usenix.org/conference/usenixsecurity23/presentation/taverna)|
-| 6       | - Block Cipher <br> - Encryption with block cipher directly <br> - Pseudorandom functions <br> - PRF Switching lemma <br> - Constructing block cipher from PRFs (the Luby-Rackoff construction) | - Boneh&Shoup 4.1, 4.4, 4.5 |
+| 6       | - Block Cipher <br> - Encryption with block cipher directly <br> - DES/Double-DES/Triple-DES <br> - AES | - Boneh&Shoup 4.1, 4.2 |
 
 
 ## Labs
