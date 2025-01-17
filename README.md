@@ -10,7 +10,8 @@ Welcome to the course repository of CSCI 4900/6900 Introduction to Cryptography!
 | 3       | - Pseudorandom generators (PRGs) <br> - Limitation of stream cipher (built from PRGs) <br> - Parallel composition of PRGs | - Boneh&Shoup 3.1-3.4 |
 | 4       | - Sequential composition of PRGs (the Blum-Micali construction) <br> - The subset sum generator <br> - The Salsa and Chacha PRGs | - Boneh&Shoup 3.4, 3.6, 3.7.2 |
 | 5       | - Linear congruential generator <br> - The Content Scrambling System (CSS) <br> - Pseudorandom Number Generator (PRNG) <br> - Generating random bits in practice | - Boneh&Shoup 3.7.1, 3.8, 3.10 <br> -  [Massimiliano Taverna and Kenneth G. Paterson. Snapping Snap Sync: Practical Attacks on Go Ethereum Synchronising Nodes](https://www.usenix.org/conference/usenixsecurity23/presentation/taverna)|
-| 6       | - Block Cipher <br> - DES/Double-DES/Triple-DES <br> - AES (do not implement your own primitive!) <br> - Pseudorandom function | - Boneh&Shoup 4.1, 4.2, 4.4 <br> - [Ping Wang, Shishir Nagaraja, Aurelien Bourquard, Haichang Gao, Jeff Yan. SoK: Acoustic Side Channels](https://arxiv.org/abs/2308.03806)|
+| 6       | - Block Cipher <br> - DES/Double-DES/Triple-DES <br> - AES (do not implement your own primitive!) <br> - Pseudorandom function | - Boneh&Shoup 4.1, 4.2, 4.4 <br> - [Ping Wang, Shishir Nagaraja, Aurelien Bourquard, Haichang Gao, Jeff Yan. SoK: Acoustic Side Channels](https://arxiv.org/abs/2308.03806) <br> - [Computerphile (Presented by Mike Pound, original paper by Nassi et al.). Power LED Attack](https://www.youtube.com/watch?v=vXe8pe18MNk)
+ |
 
 
 ## Labs
