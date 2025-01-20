@@ -19,6 +19,7 @@ Welcome to the course repository of CSCI 4900/6900 Introduction to Cryptography!
 |-----|------------------------------------------------|---------|
 | 1   | - Implement One-Time Pad <br> - Attack Two-Time Pad |         |
 | 2   | - Attack `Math.random()` in Java 8 <br> - Implement the Content Scrambling System (CSS). <br> - Attack CSS |         |
+| 13   | - Implement FEAL <br> - Attack FEAL | -  [Akihiro Shimizu, Shoji Miyaguchi. Fast Data Encipherment Algorithm FEAL.](https://link.springer.com/chapter/10.1007/3-540-39118-5_24) <br> - [Mitsuru Matsui, Atsuhiro Yamagishi. A New Method for Known Plaintext Attack of FEAL Cipher](https://link.springer.com/chapter/10.1007/3-540-47555-9_7) |
 
 
 ## Examinable Material
