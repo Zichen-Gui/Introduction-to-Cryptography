@@ -15,6 +15,7 @@ Welcome to the course repository of CSCI 4900/6900 Introduction to Cryptography!
 | 8       | - Semantic security against chosen plaintext attack (CPA) <br> - ECB and deterministic counter modes are not secure against CPA <br> - Generic hybrid construction <br> - Randomized counter mode <br> - Randomized CBC mode | - Boneh&Shoup 5.1-5.4 <br> - [Code-breaking before the Battle of Midway](https://en.wikipedia.org/wiki/Battle_of_Midway#U.S._code-breaking) |
 | 9       | - Nonce-based encryption <br> - Encrypted search <br> - Message Authentication Code (MAC) | - Boneh&Shoup 5.5, 6.1 <br> - [Dawn Xiaoding Song, D. Wagner and A. Perrig. Practical techniques for searches on encrypted data.](https://ieeexplore.ieee.org/document/848445) <br> - [Client-Side Field Level Encryption from MongoDB](https://www.mongodb.com/docs/manual/core/csfle/reference/supported-operations/#supported-query-operators) <br> - [Marketing of Blind Insight (FAQ 02: We use AES and we can do real-time search at the same time!)](https://www.blindinsight.com/product) <br> - [Muhammad Naveed, Seny Kamara, and Charles V. Wright. Inference Attacks on Property-Preserving Encrypted Databases.](https://dl.acm.org/doi/10.1145/2810103.2813651)|
 | 10      | - Security notion of MAC (sEUF-CMA) <br> - Verification queries do not help the adversary <br> - Constructing MACs from PRFs <br> - CBC prefix-free secure PRF <br> - Cascade prefix-free PRF <br> - Encrypted MAC (ECBC and NMAC) | - Boneh&Shoup 6.1-6.5  |
+| 11      | - Prefix-free encodings <br> - Randomized $\varepsilon$-prefix-free encoding and CMAC <br> - Converting a block-wise PRF to bit-wise PRF <br> - ANSI CBC-MAC, CMAC and (simplified) PMAC <br> - Using the same key for encryption and MAC: ciphertext and tag forgery on CBC encryption + (raw) CBC-MAC | - Boneh&Shoup 6.6-6.11 <br> - [Prefix code](https://en.wikipedia.org/wiki/Prefix_code) <br> - [Elias gamma coding](https://en.wikipedia.org/wiki/Elias_gamma_coding) (The version I introduced ($0^{\vert m \vert} \mathbin\Vert 1 \mathbin\Vert m$ for number $m$ represented as a binary string) is more intuitive but it is not the shortest way to encode a number using this method. The version you see on Wikipedia is shorter by 2 bits.) |
 
 
 
@@ -29,6 +30,13 @@ Welcome to the course repository of CSCI 4900/6900 Introduction to Cryptography!
 
 
 ## Examinable Material
+### 0. General Techniques
+- Prove that a simple scheme is secure with respect to a security notion.
+- If a scheme is not secure with respect to a security notion, show a concrete attack against the security notion
+- Given a scheme, analyze its efficiency. For example, the number of keys required for the scheme, number of PRF evaluations needed by the scheme, for an encryption scheme, if the encryption/decryption can be parallelized and so on. 
+
+
+
 ### 1. Encryption
 - Definition of Shannon cipher.
 - Definition of perfect security.
@@ -66,3 +74,14 @@ Welcome to the course repository of CSCI 4900/6900 Introduction to Cryptography!
 - Randomized counter mode.
 - CBC mode.
 - Nonce-based encryption (CTR and CBC).
+
+
+### 5. Message Integrity
+- Definition of a message authentication code
+- Constructing MACs from PRFs
+- The CBC prefix-free secure PRF (raw CBC-MAC)
+- The cascade prefix-free secure PRF
+- Attacks on the PRF security and MAC security of the CBC and cascade constructions 
+- Encrypted PRF: ECBC and NMAC
+- Prefix-free encodings
+- CMAC
