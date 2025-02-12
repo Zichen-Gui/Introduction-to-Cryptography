@@ -18,6 +18,7 @@ Welcome to the course repository of CSCI 4900/6900 Introduction to Cryptography!
 | 11      | - Prefix-free encodings <br> - Randomized $\varepsilon$-prefix-free encoding and CMAC <br> - Converting a block-wise PRF to bit-wise PRF <br> - ANSI CBC-MAC, CMAC and (simplified) PMAC <br> - Using the same key for encryption and MAC: ciphertext and tag forgery on CBC encryption + (raw) CBC-MAC | - Boneh&Shoup 6.6-6.11 <br> - [Prefix code](https://en.wikipedia.org/wiki/Prefix_code) <br> - [Elias gamma coding](https://en.wikipedia.org/wiki/Elias_gamma_coding) (The version I introduced ($0^{\vert m \vert} \mathbin\Vert 1 \mathbin\Vert m$ for number $m$ represented as a binary string) is more intuitive but it is not the shortest way to encode a number using this method. The version you see on Wikipedia is shorter by 2 bits.) |
 | 12      | - Universal hash functions <br> - Security of universal hash functions <br> - The CBC and cascading constructions are computational UHFs (computationally secure) <br> - UHFs using polynomials (statistically secure) | - Boneh&Shoup 7.1-7.2  |
 | 13      | - UHFs using polynomials <br> - A parallel UHF from a small PRF <br> - PRF(UHF) composition | - Boneh&Shoup 7.2-7.3  |
+| 14      | - The Carter-Wegman MAC <br> - Difference unpredictable functions (DUFs) <br> - One-time MAC | - Boneh&Shoup 7.4,7.6  |
 
 
 
