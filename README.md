@@ -21,6 +21,7 @@ Welcome to the course repository of CSCI 4900/6900 Introduction to Cryptography!
 | 14      | - The Carter-Wegman MAC <br> - Difference unpredictable functions (DUFs) <br> - One-time MAC | - Boneh&Shoup 7.4,7.6  |
 | 15      | - One-time MAC | - Boneh&Shoup 7.6  |
 | 16      | - Collision resistant hash <br> - Birthday attack on collision resistant hash functions <br> - The Merkle-Damgard paradigm <br> - Davies-Meyer compression functions | - Boneh&Shoup 8.1-8.5  |
+| 17      | - SHA256 <br> - Password hashing <br> - HMAC | - Boneh&Shoup 8.6-8.7 <br> - [How Dropbox securely stores your passwords](https://dropbox.tech/security/how-dropbox-securely-stores-your-passwords) <br> - [Facebook parent company fined €91m over password storage](https://www.bbc.com/news/articles/cvgl8lerx85o)  |
 
 
 
