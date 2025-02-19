@@ -19,6 +19,9 @@ Welcome to the course repository of CSCI 4900/6900 Introduction to Cryptography!
 | 12      | - Universal hash functions <br> - Security of universal hash functions <br> - The CBC and cascading constructions are computational UHFs (computationally secure) <br> - UHFs using polynomials (statistically secure) | - Boneh&Shoup 7.1-7.2  |
 | 13      | - UHFs using polynomials <br> - A parallel UHF from a small PRF <br> - PRF(UHF) composition | - Boneh&Shoup 7.2-7.3  |
 | 14      | - The Carter-Wegman MAC <br> - Difference unpredictable functions (DUFs) <br> - One-time MAC | - Boneh&Shoup 7.4,7.6  |
+| 15      | - One-time MAC | - Boneh&Shoup 7.6  |
+| 16      | - Collision resistant hash <br> - Birthday attack on collision resistant hash functions <br> - The Merkle-Damgard paradigm <br> - Davies-Meyer compression functions | - Boneh&Shoup 8.1-8.5  |
+
 
 
 
@@ -88,3 +91,19 @@ Welcome to the course repository of CSCI 4900/6900 Introduction to Cryptography!
 - Encrypted PRF: ECBC and NMAC
 - Prefix-free encodings
 - CMAC
+
+
+### 6. Message Integrity from Universal Hashing
+- Definition of keyed hash functions
+- Security definition of universal hash functions (UHFs)
+- PRF(UHF) composition
+- Know that the CBC and the cascade prefix-free secure PRFs are UHFs (since they are prefix-free secure PRFs and they are extendable)
+- Know that $\text{PMAC}_0$ can be viewed as a special instance of PRF(UHF)
+- $H_{poly}$ and the proof that it is a UHF
+- The Carter-Wegman MAC
+- Difference unpredictable functions (DUFs)
+- $H_{xpoly}$ and the proof that it is a DUF
+- The idea of nonce-based MACs
+- Unconditionally secure one-time MACs
+- Pairwise unpredictable functions (PUFs)
+- Building PUFs from DUFs
