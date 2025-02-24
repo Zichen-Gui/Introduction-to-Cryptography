@@ -21,8 +21,8 @@ Welcome to the course repository of CSCI 4900/6900 Introduction to Cryptography!
 | 14      | - The Carter-Wegman MAC <br> - Difference unpredictable functions (DUFs) <br> - One-time MAC | - Boneh&Shoup 7.4,7.6  |
 | 15      | - One-time MAC | - Boneh&Shoup 7.6  |
 | 16      | - Collision resistant hash <br> - Birthday attack on collision resistant hash functions <br> - The Merkle-Damgard paradigm <br> - Davies-Meyer compression functions | - Boneh&Shoup 8.1-8.5  |
-| 17      | - SHA256 <br> - Password hashing <br> - HMAC | - Boneh&Shoup 8.6-8.7 <br> - [How Dropbox securely stores your passwords](https://dropbox.tech/security/how-dropbox-securely-stores-your-passwords) <br> - [Facebook parent company fined €91m over password storage](https://www.bbc.com/news/articles/cvgl8lerx85o)  |
-
+| 17      | - SHA256 <br> - Password hashing <br> - Constructing PRFs from keyless collision resistant hash functions | - Boneh&Shoup 8.6-8.7 <br> - [How Dropbox securely stores your passwords](https://dropbox.tech/security/how-dropbox-securely-stores-your-passwords) <br> - [Facebook parent company fined €91m over password storage](https://www.bbc.com/news/articles/cvgl8lerx85o)  |
+| 18      | - Constructing PRFs from keyless collision resistant hash functions (HMAC) <br> - Random Oracle Model <br> - Key Derivation Function (HKDF) | - Boneh&Shoup 8.7,8.10 |
 
 
 
@@ -108,3 +108,13 @@ Welcome to the course repository of CSCI 4900/6900 Introduction to Cryptography!
 - Unconditionally secure one-time MACs
 - Pairwise unpredictable functions (PUFs)
 - Building PUFs from DUFs
+
+
+### 7. Message Integrity from Collision Resistant Hashing
+- Definition of collision resistant hashing
+- Hash-then-MAC paradigm
+- Birthday attack on collision resistant hash functions
+- The Merkle-Damgard paradigm
+- Davies-Meyer compression functions
+- Intuitively argue for the security of the two-key nest construction
+- Intuitively argue for the security of HMAC
