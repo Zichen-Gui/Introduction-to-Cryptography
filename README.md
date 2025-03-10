@@ -23,6 +23,10 @@ Welcome to the course repository of CSCI 4900/6900 Introduction to Cryptography!
 | 16      | - Collision resistant hash <br> - Birthday attack on collision resistant hash functions <br> - The Merkle-Damgard paradigm <br> - Davies-Meyer compression functions | - Boneh&Shoup 8.1-8.5  |
 | 17      | - SHA256 <br> - Password hashing <br> - Constructing PRFs from keyless collision resistant hash functions | - Boneh&Shoup 8.6-8.7 <br> - [How Dropbox securely stores your passwords](https://dropbox.tech/security/how-dropbox-securely-stores-your-passwords) <br> - [Facebook parent company fined €91m over password storage](https://www.bbc.com/news/articles/cvgl8lerx85o)  |
 | 18      | - Constructing PRFs from keyless collision resistant hash functions (HMAC) <br> - Random Oracle Model <br> - Key Derivation Function (HKDF) | - Boneh&Shoup 8.7,8.10 |
+| 19      | - Ciphertext integrity <br> - Authenticated encryption <br> - Chosen ciphertext attack <br> - Combinding encryption and MAC <br> - Nonce-based AEAD <br> - CCM mode | - Boneh&Shoup 9.1-9.5 <br> - [CCM mode](https://xilinx.github.io/Vitis_Libraries/security/2019.2/guide_L1/internals/ccm.html) |
+| 20      | - CCM mode <br> - OCB mode <br> - Chacha20-Poly1305 <br> - 802.11b WEP | - [CCM mode](https://xilinx.github.io/Vitis_Libraries/security/2019.2/guide_L1/internals/ccm.html) <br> - [OCB mode](https://web.cs.ucdavis.edu/~rogaway/ocb/ocb-faq.htm) <br> - [Chacha20](https://cr.yp.to/chacha.html) <br> - [Poly1305](https://cr.yp.to/mac.html) |
+| 21      | - One-way trapdoor functions/permutations <br> RSA cryptosystem | - Boneh&Shoup 10.1-10.3  |
+
 
 
 
@@ -34,6 +38,9 @@ Welcome to the course repository of CSCI 4900/6900 Introduction to Cryptography!
 | 3   | - Implement FEAL <br> - Attack FEAL | -  [Akihiro Shimizu, Shoji Miyaguchi. Fast Data Encipherment Algorithm FEAL.](https://link.springer.com/chapter/10.1007/3-540-39118-5_24) <br> - [Mitsuru Matsui, Atsuhiro Yamagishi. A New Method for Known Plaintext Attack of FEAL Cipher](https://link.springer.com/chapter/10.1007/3-540-47555-9_7) |
 | 4   | - Differential fault analysis of AES | - [Michael Tunstall, Debdeep Mukhopadhyay, Subidh Ali. Differential Fault Analysis of the Advanced Encryption Standard using a Single Fault](https://eprint.iacr.org/2009/575) |
 | 5   | - Implement a padding oracle attack on AES-CBC (GRADED) |         |
+| 6   | - Collision attacks against MD4 and MD5 | - [X. Wang, X. Lai, D. Feng, H. Chen and X. Yu. Cryptanalysis of the Hash Functions MD4 and RIPEMD. Eurocrypt 2005.](https://www.iacr.org/archive/fse2007/45930331/45930331.pdf) <br> - [M. Schl¨affer and E. Oswald. Searching for Differential Paths in MD4. Fast Software Encryption (FSE) 2006.](https://www.iacr.org/archive/fse2006/40470245/40470245.pdf) <br> - [Y. Sasaki, L. Wang, K. Ohta and N. Kunihiro. New Message Difference for MD4. Fast Software Encryption (FSE) 2007.](https://iacr.org/archive/fse2007/45930331/45930331.pdf)        |
+| 7   | - Chopchop attack against 802.11b WEP |  [M. Guennoun, A. Lbekkouri, A. Benamrane, M. Ben-Tahir and K. El-Khatib, "Wireless networks security: Proof of chopchop attack," 2008 International Symposium on a World of Wireless, Mobile and Multimedia Networks.](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=4594924)  |
+
 
 
 ## Examinable Material
@@ -118,3 +125,10 @@ Welcome to the course repository of CSCI 4900/6900 Introduction to Cryptography!
 - Davies-Meyer compression functions
 - Intuitively argue for the security of the two-key nest construction
 - Intuitively argue for the security of HMAC
+
+
+### 8. Authenticated Encryption
+- Definition of ciphertext integrity
+- Definition of authenticated encryption
+- Nonce-based authenticated encryption with associated data
+- Generic compositions: MAC-then-encrypt and encrypt-then-MAC
