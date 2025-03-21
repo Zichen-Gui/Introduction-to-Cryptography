@@ -27,7 +27,11 @@ Poll for the graduate student presentations: https://forms.office.com/r/CMPhixS7
 | 18      | - Constructing PRFs from keyless collision resistant hash functions (HMAC) <br> - Random Oracle Model <br> - Key Derivation Function (HKDF) | - Boneh&Shoup 8.7,8.10 |
 | 19      | - Ciphertext integrity <br> - Authenticated encryption <br> - Chosen ciphertext attack <br> - Combinding encryption and MAC <br> - Nonce-based AEAD <br> - CCM mode | - Boneh&Shoup 9.1-9.5 <br> - [CCM mode](https://xilinx.github.io/Vitis_Libraries/security/2019.2/guide_L1/internals/ccm.html) |
 | 20      | - CCM mode <br> - OCB mode <br> - Chacha20-Poly1305 <br> - 802.11b WEP | - [CCM mode](https://xilinx.github.io/Vitis_Libraries/security/2019.2/guide_L1/internals/ccm.html) <br> - [OCB mode](https://web.cs.ucdavis.edu/~rogaway/ocb/ocb-faq.htm) <br> - [Chacha20](https://cr.yp.to/chacha.html) <br> - [Poly1305](https://cr.yp.to/mac.html) |
-| 21      | - One-way trapdoor functions/permutations <br> RSA cryptosystem | - Boneh&Shoup 10.1-10.3  |
+| 21      | - One-way trapdoor functions/permutations <br> - RSA cryptosystem | - Boneh&Shoup 10.1-10.3  |
+| 22      | - Exponentiation by squaring <br> - Miller–Rabin primality test <br> - Modular multiplicative inverse (extended Euclidean algorithm) |  |
+| 23      | - Basic group theory <br> - Diffie-Hellman Key Exchange <br> Discrete logarithm and related assumptions <br> - Random self-reducibility <br> - Man-in-the-Middle attack against DHKE | - Boneh&Shoup 10.4, 10.5, 10.7  |
+| 24      | - Reasons behind the parameter choices of DH | - [Why 2048-bit prime p?](https://weakdh.org/imperfect-forward-secrecy-ccs15.pdf) <br> - [Why (at least) 256-bit prime q?](https://en.wikipedia.org/wiki/Baby-step_giant-step) |
+| 25      | - Quantum attacks against RSA and DH (Shor's algorithm) <br> - Quantum attack against symmetric key encryption schemes (Grover's algorithm) <br> - Public key encryption schemes (semantic security and CPA security) <br> Public key encryption schemes based on RSA and DH | - Boneh&Shoup 11.1-11.5 |
 
 
 
@@ -41,7 +45,9 @@ Poll for the graduate student presentations: https://forms.office.com/r/CMPhixS7
 | 4   | - Differential fault analysis of AES | - [Michael Tunstall, Debdeep Mukhopadhyay, Subidh Ali. Differential Fault Analysis of the Advanced Encryption Standard using a Single Fault](https://eprint.iacr.org/2009/575) |
 | 5   | - Implement a padding oracle attack on AES-CBC (GRADED) |         |
 | 6   | - Collision attacks against MD4 and MD5 | - [X. Wang, X. Lai, D. Feng, H. Chen and X. Yu. Cryptanalysis of the Hash Functions MD4 and RIPEMD. Eurocrypt 2005.](https://www.iacr.org/archive/fse2007/45930331/45930331.pdf) <br> - [M. Schl¨affer and E. Oswald. Searching for Differential Paths in MD4. Fast Software Encryption (FSE) 2006.](https://www.iacr.org/archive/fse2006/40470245/40470245.pdf) <br> - [Y. Sasaki, L. Wang, K. Ohta and N. Kunihiro. New Message Difference for MD4. Fast Software Encryption (FSE) 2007.](https://iacr.org/archive/fse2007/45930331/45930331.pdf)        |
-| 7   | - Chopchop attack against 802.11b WEP |  [M. Guennoun, A. Lbekkouri, A. Benamrane, M. Ben-Tahir and K. El-Khatib, "Wireless networks security: Proof of chopchop attack," 2008 International Symposium on a World of Wireless, Mobile and Multimedia Networks.](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=4594924)  |
+| 7   | - Chopchop attack against 802.11b WEP | - [M. Guennoun, A. Lbekkouri, A. Benamrane, M. Ben-Tahir and K. El-Khatib, "Wireless networks security: Proof of chopchop attack," 2008 International Symposium on a World of Wireless, Mobile and Multimedia Networks.](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=4594924)  |
+| 8   | - Implement RSA cryptosystem |         |
+| 9   | - Implement Diffie-Hellman Key Exchange | - [RFC 2631](https://datatracker.ietf.org/doc/html/rfc2631) |
 
 
 
@@ -134,3 +140,13 @@ Poll for the graduate student presentations: https://forms.office.com/r/CMPhixS7
 - Definition of authenticated encryption
 - Nonce-based authenticated encryption with associated data
 - Generic compositions: MAC-then-encrypt and encrypt-then-MAC
+
+
+### 9. Public key tools
+- Definition of anonymous key exchange
+- One-way trapdoor functions/permutations
+- Key exchange using a one-way trapdoor function
+- RSA cryptosystem
+- Diffie-Hellman key exchange
+- Man-in-the-Middle attack against DHKE
+- Definition of discrete logarithm and related assumptions
