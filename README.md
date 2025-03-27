@@ -32,7 +32,7 @@ Poll for the graduate student presentations: https://forms.office.com/r/CMPhixS7
 | 23      | - Basic group theory <br> - Diffie-Hellman Key Exchange <br> Discrete logarithm and related assumptions <br> - Random self-reducibility <br> - Man-in-the-Middle attack against DHKE | - Boneh&Shoup 10.4, 10.5, 10.7  |
 | 24      | - Reasons behind the parameter choices of DH | - [Why 2048-bit prime p?](https://weakdh.org/imperfect-forward-secrecy-ccs15.pdf) <br> - [Why (at least) 256-bit prime q?](https://en.wikipedia.org/wiki/Baby-step_giant-step) |
 | 25      | - Quantum attacks against RSA and DH (Shor's algorithm) <br> - Quantum attack against symmetric key encryption schemes (Grover's algorithm) <br> - Public key encryption schemes (semantic security and CPA security) <br> Public key encryption schemes based on RSA and DH | - Boneh&Shoup 11.1-11.5 |
-
+| 26      | - Public key encryption schemes based on RSA and DH <br> - Oblivious transfer based on DH <br> - CCA security | - Boneh&Shoup 11.5, 11.6, 12.1, 12.2 |
 
 
 
