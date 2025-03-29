@@ -33,6 +33,8 @@ Poll for the graduate student presentations: https://forms.office.com/r/CMPhixS7
 | 24      | - Reasons behind the parameter choices of DH | - [Why 2048-bit prime p?](https://weakdh.org/imperfect-forward-secrecy-ccs15.pdf) <br> - [Why (at least) 256-bit prime q?](https://en.wikipedia.org/wiki/Baby-step_giant-step) |
 | 25      | - Quantum attacks against RSA and DH (Shor's algorithm) <br> - Quantum attack against symmetric key encryption schemes (Grover's algorithm) <br> - Public key encryption schemes (semantic security and CPA security) <br> Public key encryption schemes based on RSA and DH | - Boneh&Shoup 11.1-11.5 |
 | 26      | - Public key encryption schemes based on RSA and DH <br> - Oblivious transfer based on DH <br> - CCA security | - Boneh&Shoup 11.5, 11.6, 12.1, 12.2 |
+| 27      | - CCA security <br> - Malleability of RSA <br> - CCA-secure RSA and ElGamal <br> - PKCS#1 and OAEP | - Boneh&Shoup 12.2, 12.3, 12.8 <br> - [RFC3447](https://datatracker.ietf.org/doc/html/rfc3447) |
+
 
 
 
@@ -48,6 +50,7 @@ Poll for the graduate student presentations: https://forms.office.com/r/CMPhixS7
 | 7   | - Chopchop attack against 802.11b WEP | - [M. Guennoun, A. Lbekkouri, A. Benamrane, M. Ben-Tahir and K. El-Khatib, "Wireless networks security: Proof of chopchop attack," 2008 International Symposium on a World of Wireless, Mobile and Multimedia Networks.](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=4594924)  |
 | 8   | - Implement RSA cryptosystem |         |
 | 9   | - Implement Diffie-Hellman Key Exchange | - [RFC 2631](https://datatracker.ietf.org/doc/html/rfc2631) |
+| 10  | - Implement the Pohlig-Hellman Algorithm (GRADED) |         |
 
 
 
@@ -150,3 +153,16 @@ Poll for the graduate student presentations: https://forms.office.com/r/CMPhixS7
 - Diffie-Hellman key exchange
 - Man-in-the-Middle attack against DHKE
 - Definition of discrete logarithm and related assumptions
+
+
+### 10. Public key encryption
+- Definition of semantic security
+- Definition of semantic security against chosen plaintext attack
+- Public key encryption based on RSA
+- ElGamal encryption
+
+
+### 11. Chosen ciphertext secure public key encryption
+- Definition of semantic security against chosen ciphertext attack
+- Understand examples of public key encryption schemes such as PKCS#1 (insecure) and OAEP (secure)
+- Given a scheme (which can be for functionalities other than encryption) based on RSA or discrete logarithm, argue informally about its security, or come up with a concrete attack
