@@ -33,7 +33,7 @@ Poll for the graduate student presentations: https://forms.office.com/r/CMPhixS7
 | 24      | - Reasons behind the parameter choices of DH | - [Why 2048-bit prime p?](https://weakdh.org/imperfect-forward-secrecy-ccs15.pdf) <br> - [Why (at least) 256-bit prime q?](https://en.wikipedia.org/wiki/Baby-step_giant-step) |
 | 25      | - Quantum attacks against RSA and DH (Shor's algorithm) <br> - Quantum attack against symmetric key encryption schemes (Grover's algorithm) <br> - Public key encryption schemes (semantic security and CPA security) <br> Public key encryption schemes based on RSA and DH | - Boneh&Shoup 11.1-11.5 |
 | 26      | - Public key encryption schemes based on RSA and DH <br> - Oblivious transfer based on DH <br> - CCA security | - Boneh&Shoup 11.5, 11.6, 12.1, 12.2 |
-| 27      | - CCA security <br> - Malleability of RSA <br> - CCA-secure RSA and ElGamal <br> - PKCS#1 and OAEP | - Boneh&Shoup 12.2, 12.3, 12.8 <br> - [RFC3447](https://datatracker.ietf.org/doc/html/rfc3447) |
+| 27      | - CCA security <br> - Malleability of RSA <br> - CCA-secure RSA and ElGamal <br> - PKCS#1 and OAEP <br> - Schnorr's identification protocol (honest verifier zero knowledge) | - Boneh&Shoup 12.2, 12.3, 12.8, 19.1 <br> - [RFC3447](https://datatracker.ietf.org/doc/html/rfc3447) |
 
 
 
