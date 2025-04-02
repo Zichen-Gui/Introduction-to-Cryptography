@@ -34,6 +34,8 @@ Poll for the graduate student presentations: https://forms.office.com/r/CMPhixS7
 | 25      | - Quantum attacks against RSA and DH (Shor's algorithm) <br> - Quantum attack against symmetric key encryption schemes (Grover's algorithm) <br> - Public key encryption schemes (semantic security and CPA security) <br> Public key encryption schemes based on RSA and DH | - Boneh&Shoup 11.1-11.5 |
 | 26      | - Public key encryption schemes based on RSA and DH <br> - Oblivious transfer based on DH <br> - CCA security | - Boneh&Shoup 11.5, 11.6, 12.1, 12.2 |
 | 27      | - CCA security <br> - Malleability of RSA <br> - CCA-secure RSA and ElGamal <br> - PKCS#1 and OAEP <br> - Schnorr's identification protocol (honest verifier zero knowledge) | - Boneh&Shoup 12.2, 12.3, 12.8, 19.1 <br> - [RFC3447](https://datatracker.ietf.org/doc/html/rfc3447) |
+| 28      | - Digital signatures <br> - Digital signatures based on RSA | - Boneh&Shoup 13.1-13.3 |
+| 29      | - PKCS#1 <br> - Lamport Signaturs <br> - Schnorr's signature scheme | - Boneh&Shoup 13.6, 14.1, 19.1, 19.2 |
 
 
 
@@ -51,6 +53,8 @@ Poll for the graduate student presentations: https://forms.office.com/r/CMPhixS7
 | 8   | - Implement RSA cryptosystem |         |
 | 9   | - Implement Diffie-Hellman Key Exchange | - [RFC 2631](https://datatracker.ietf.org/doc/html/rfc2631) |
 | 10  | - Implement the Pohlig-Hellman Algorithm (GRADED) |         |
+| 11  | - Implement Lamport signature | - https://www.microsoft.com/en-us/research/publication/constructing-digital-signatures-one-way-function/ |
+| 12  | - Implement ECDSA | - https://datatracker.ietf.org/doc/html/rfc6605 |
 
 
 
