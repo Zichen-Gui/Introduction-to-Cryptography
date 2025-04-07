@@ -36,7 +36,7 @@ Poll for the graduate student presentations: https://forms.office.com/r/CMPhixS7
 | 27      | - CCA security <br> - Malleability of RSA <br> - CCA-secure RSA and ElGamal <br> - PKCS#1 and OAEP <br> - Schnorr's identification protocol (honest verifier zero knowledge) | - Boneh&Shoup 12.2, 12.3, 12.8, 19.1 <br> - [RFC3447](https://datatracker.ietf.org/doc/html/rfc3447) |
 | 28      | - Digital signatures <br> - Digital signatures based on RSA | - Boneh&Shoup 13.1-13.3 |
 | 29      | - PKCS#1 <br> - Lamport Signaturs <br> - Schnorr's signature scheme | - Boneh&Shoup 13.6, 14.1, 19.1, 19.2 |
-
+| 30      | - Hash-based one-time password <br> - Time-based one-time password <br> - The S/key system <br> - Challenge-response protocols <br> - Authenticated key exchange (AKE1 and AKE2) <br> - TLS key exchange | - Boneh&Shoup 18.5, 18.6, 21.2, 21.3, 21.10 |
 
 
 
@@ -170,3 +170,10 @@ Poll for the graduate student presentations: https://forms.office.com/r/CMPhixS7
 - Definition of semantic security against chosen ciphertext attack
 - Understand examples of public key encryption schemes such as PKCS#1 (insecure) and OAEP (secure)
 - Given a scheme (which can be for functionalities other than encryption) based on RSA or discrete logarithm, argue informally about its security, or come up with a concrete attack
+
+
+### 12. Digital signatures
+- Definition of secure signatures (EUF-CMA)
+- Signatures based on the RSA trapdoor permutation
+- Digital certificates
+- Recognize other digital signatures such as the Lamport signatures and signatures from Schnorr's identification protocol
